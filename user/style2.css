@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(240, 241, 230);
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+}
+
+nav{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    z-index: 99;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover> ul{
+    display: block;
+    width: 150px;
+}
+
+nav ul{
+    background-color: rgb(0, 0, 0,0.5);
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li:hover{
+    background-color: rgb(0, 0, 0,0.5);
+}
+
+nav ul li:hover a {
+    color: grey;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav ul ul li{
+    float: none;
+    border-top: 1px solid #53bd84;
+    border-bottom: 1px solid #53bd84;
+    position: relative;
+}
+
+nav ul ul li a:hover{
+    background: rgb(255, 253, 253);
+}
+
+nav ul ul ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+.kotak{
+    margin-left: 1000px;
+    animation: animasi 5s alternate infinite;
+}
+
+@keyframes animasi {
+    to {
+        background-color: rgb(32, 91, 142);
+        width: 100px;
+        height: 100px;
+    }
+    from {
+        transform: rotate(360deg);
+        background-color: #8809a7;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+footer{
+    background-color: #53bd84;
+    color: #000;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.content{
+    color: rgb(12, 11, 11);
+    background: url(../foto/Perpus.jpg);
+    padding-top: 100px;
+    text-align: center;
+    height:400px;
+}
+
+.welcome{
+    color: rgb(7, 172, 34);
+    background: url(../foto/Perpus.jpg);
+    padding-top: 100px;
+    text-align: center;
+    height: 400px;
+}
+
+.about{
+    position: fixed;
+}
+
+.book1{
+    height: 260px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 190px;
+    background: white;
+    box-shadow: 2px 1px 1px 2px rgb(69, 61, 61);
+}
+
+#book{
+    display: flex;
+}
+
+.book2{
+    height: 260px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 190px;
+    margin-left: 100px;
+    background: white; 
+    box-shadow: 2px 1px 3px rgb(69, 61, 61);
+}
+
+.book3{
+    position: absolute;
+    height: 260px;
+    margin-top: 120px;
+    margin-left: 50px;
+    width: 190px;
+    background: white;
+    box-shadow: 2px 1px 1px 2px rgb(69, 61, 61);
+}
+
+.isidetail1{
+    padding-top: 120px;
+    padding-left: 350px;
+    font-size: small;
+    line-height: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.isidetail1 p{
+    margin-bottom: 40px;
+}
+
+a.buttondetail1{
+    padding: 8px 60px;
+    border-radius: 20px;
+    background: green;
+    text-decoration: none;
+}
+
+.card{
+    background-color: aliceblue;
+    width: 350px;
+    height: 450px;
+    margin: auto;
+    box-shadow: 1px 1px 2px 2px;
+    border-radius: 30px;
+}
+
+.main{
+    text-align: center;
+}
+
+.form-control{
+    width: 250px;
+    height: 20px;
+    background-color: antiquewhite;
+    border: #000;
+}
+
+.submit{
+    width: 100px;
+    border-radius: 20px;
+    background-color: green;
+}
+
+.sheehs{
+    font-family: Arial, Helvetica, sans-serif;
+}

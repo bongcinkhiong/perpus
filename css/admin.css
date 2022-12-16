@@ -1,0 +1,120 @@
+body {
+    background: rgba(2, 66, 21, 0.954);
+    font-family: "Assistant", sans-serif;
+}
+
+.navbar-nav{
+    cursor: pointer;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.navbar-nav:hover{
+    background-color: grey;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main {
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+table{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background: rgb(223, 222, 222);
+    margin-top: 20px;
+    box-shadow: 1px 2px 2px black;
+}
+
+th, td{
+    text-align: left;
+    padding: 10px;
+    font-size: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+}
+
+a.tambah{
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    background: rgb(198, 209, 53);
+    font-size: 16px;
+}
+
+a.edit{
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    background: green;
+    font-size: 18px;
+}
+
+a.hapus{
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    background: red;
+    font-size: 18px;
+}
+
+a.kembali{
+    padding: 8px;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    background: gray;
+}
+
+.box{
+    height: 100%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 21px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+button{
+    background: #4CAF50;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.verifikasi{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
